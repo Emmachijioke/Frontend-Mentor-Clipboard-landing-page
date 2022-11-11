@@ -1,0 +1,433 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: Bai Jamjuree;
+    src: url(font/BaiJamjuree-Regular.ttf);
+}
+
+:root{
+    --btn1: hsl(171, 66%, 44%);
+    --btn2: hsl(233, 100%, 69%);
+    --heading: hsl(210, 10%, 33%);
+    --text: hsl(201, 11%, 66%);
+}
+
+body{
+    font-family: Bai Jamjuree;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: gray;
+    font-size: 18px;
+}
+
+.container{
+    min-width: 375px;
+    margin: auto;
+    background-color: white;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+header p{
+    padding: 1rem 0.2rem;
+    opacity: 80%;
+    font-weight: 500;
+    color: var(--text);
+}
+
+header h1{
+    color: var(--heading);
+    padding-top: 3rem;
+}
+
+.logo{
+    padding-top: 8rem;
+    background-image: url(images/bg-header-mobile.png);
+    text-align: center;
+}
+
+.btn1{
+    width: 20rem;
+    height: 3.5rem;
+    background: var(--btn1);
+    border-radius: 2rem;
+    border: var(--btn1);
+    color: white;
+    font-size: 20px;
+    font-family: Bai Jamjuree;
+    margin-bottom: 24px;
+    opacity: 70%;
+}
+
+.btn2{
+    width: 20rem;
+    height: 3.5rem;
+    background: var(--btn2);
+    border-radius: 2rem;
+    border: var(--btn2);
+    color: white;
+    font-size: 20px;
+    font-family: Bai Jamjuree;
+    opacity: 70%;
+}
+
+.button{
+    margin: 3rem auto;
+}
+
+header h2{
+    padding-top: 7rem;
+    color: var(--heading);
+    margin: 0 2rem;
+}
+
+.article-image{
+   max-width: 100%;
+    margin-top: 3rem;
+}
+
+.section1-image{
+    max-width: 100%;
+}
+
+.item1{
+    margin: 3rem auto;
+}
+.item2{
+    margin: 3rem auto;
+}
+.item3{
+    margin: 3rem auto;
+}
+
+main{
+    text-align: center;
+    margin: 0 17px;
+}
+
+.article1 h3{
+    color: var(--heading);
+}
+
+main p{
+    color: var(--text);
+    opacity: 80%;
+}
+
+.section1{
+    margin-top: 12rem;
+}
+
+.section1 h2{
+    color: var(--heading);
+    margin-bottom: 1rem;
+}
+
+.section1 p{
+    margin-bottom: 4rem;
+
+}
+
+.section2{
+    margin: 6rem 1rem 1rem 1rem;
+
+}
+
+.section2 h2{
+    color: var(--heading);
+    margin-bottom: 1rem;
+}
+
+.article2{
+    margin-top: 6rem;
+} 
+.card1{
+    margin: 4rem 0;
+}
+.card1 h3{
+    margin-bottom: 1rem;
+    color: var(--heading);
+    margin-top: 2rem;
+}
+
+.card1 p{
+    font-size: 17px;
+    color: var(--text);
+}
+
+.card2 h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--heading);
+}
+.card2 p{
+    font-size: 17px;
+    color: var(--text);
+    margin-bottom: 4rem;
+}
+
+.card3 h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--heading);
+}
+
+.card3 p{
+    font-size: 17px;
+    color: var(--text);
+}
+
+.article3{
+    margin-top: 8rem;
+}
+
+.image4{
+    margin-bottom: 3.5rem;
+}
+
+.image5{
+    margin-bottom: 3.5rem;
+}
+
+.image6{
+    margin-bottom: 3.5rem;
+}
+
+.image7{
+    margin-bottom: 3.5rem;
+}
+
+.image8{
+    margin-bottom: 3.5rem;
+}
+
+.section3 h2{
+    margin-top: 10rem;
+    padding: 1rem;
+    color: var(--heading);
+}
+
+.section3 p{
+    font-size: 17.8px;
+}
+
+.section3{
+    margin-bottom: 10rem;
+}
+
+.logo2{
+    width: 15%;
+    margin-top: 3.5rem;
+}
+
+li{
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--heading);
+    font-weight: 600;
+    opacity: 80%;
+}
+
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 6rem;
+}
+
+footer p{
+    color: var(--text);
+}
+
+footer a{
+    color: black;
+    font-weight: 400;
+}
+
+@media screen  and (min-width:768px) {
+    .container{
+        width: 1440px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .logo{
+        background-image: url(images/bg-header-desktop.png);
+    }
+
+    header{
+        width: 31rem;
+        margin: auto;
+    }
+
+    .btn1{
+        margin-right: 0.5rem;
+        width: 10rem;
+        height: 2.2rem;
+        font-size: 1rem;
+    }
+
+    .btn2{
+        width: 10rem;
+        height: 2.2rem;
+        font-size: 1rem;
+    }
+
+    .button{
+        margin: 1rem auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    header h2{
+        margin-top: -3rem;
+    }
+
+    header p{
+        margin-left: -2rem;
+    }
+
+    .article1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .article-image{
+        margin-right: 6rem;
+        margin-left: -3rem;
+    }
+
+    .item{
+        grid-area: item1;
+        text-align: start;
+        width: 18rem;
+    }
+
+    body{
+        font-size: 13px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    .section1{
+        width: 30rem;
+        margin: auto;
+        margin-top: 5rem;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+    
+    .section2{
+        margin-top: 2.5rem;
+    }
+
+    .article2{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card1{
+        margin-top: -10px;
+        width: 18rem;
+    }
+
+    .card2{
+        width: 18rem;
+    }
+
+    .card3{
+        width: 18rem;
+    }
+
+    .article3{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section3{
+        width: 32rem;
+        margin: auto;
+        margin-top: -8rem;
+    }
+
+    .section3 p{
+        font-size: 13px;
+    }
+
+    .section3 h2{
+        font-size: 22px;
+    }
+
+    .article2 p{
+        font-size: 13px;
+    }
+    
+    .section3 .button{
+        margin-top: 2rem;
+        margin-bottom: 4.5rem;
+    }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo2{
+    width: 2rem;
+    margin-top: -0.5px;
+}
+
+.contact li{
+    margin-left: 1rem;
+    margin-top: -0.2rem;
+}
+   
+
+.nav-menu1{
+    text-align: start;
+}
+
+.nav-menu2{
+    text-align: start;
+}
+
+.nav-menu3{
+    align-self: flex-start;
+    margin-top: 0.7rem;
+}
+
+.attribution{
+    background-color: gray;
+    color: black;
+    font-weight: 500;
+}
+
+}
