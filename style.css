@@ -30,6 +30,11 @@ body{
     background-color: white;
 }
 
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
 header{
     text-align: center;
     padding: 10px;
@@ -63,7 +68,6 @@ header h1{
     font-size: 20px;
     font-family: Bai Jamjuree;
     margin-bottom: 24px;
-    opacity: 70%;
 }
 
 .btn2{
@@ -75,7 +79,6 @@ header h1{
     color: white;
     font-size: 20px;
     font-family: Bai Jamjuree;
-    opacity: 70%;
 }
 
 .button{
@@ -236,7 +239,6 @@ a{
     text-decoration: none;
     color: var(--heading);
     font-weight: 600;
-    opacity: 80%;
 }
 
 footer{
